@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    border: 5px double black;
+}
+.calculator{
+    border: 5px dashed gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+    margin: 20px;
+    
+}
+#display{
+    text-align: center;
+    margin: 0px 12.5%;
+    width: 75%;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+
+}
+
+.operator{
+    height: 50px;
+    width: 50px;
+}
+
